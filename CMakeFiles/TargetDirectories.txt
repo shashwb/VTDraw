@@ -1,0 +1,11 @@
+/Users/sethbalodi/Desktop/project2-shashwb/CMakeFiles/rebuild_cache.dir
+/Users/sethbalodi/Desktop/project2-shashwb/CMakeFiles/edit_cache.dir
+/Users/sethbalodi/Desktop/project2-shashwb/CMakeFiles/test.dir
+/Users/sethbalodi/Desktop/project2-shashwb/CMakeFiles/test_gui.dir
+/Users/sethbalodi/Desktop/project2-shashwb/CMakeFiles/unittests.dir
+/Users/sethbalodi/Desktop/project2-shashwb/CMakeFiles/vtdraw.dir
+/Users/sethbalodi/Desktop/project2-shashwb/CMakeFiles/vtscript.dir
+/Users/sethbalodi/Desktop/project2-shashwb/CMakeFiles/test_gui_automoc.dir
+/Users/sethbalodi/Desktop/project2-shashwb/CMakeFiles/unittests_automoc.dir
+/Users/sethbalodi/Desktop/project2-shashwb/CMakeFiles/vtdraw_automoc.dir
+/Users/sethbalodi/Desktop/project2-shashwb/CMakeFiles/vtscript_automoc.dir
