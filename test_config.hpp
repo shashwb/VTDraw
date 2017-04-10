@@ -3,7 +3,7 @@
 
 #include <string>
 
-const std::string TEST_FILE_DIR = "/Users/sethbalodi/Desktop/project2-shashwb/tests";
+const std::string TEST_FILE_DIR = "/Users/sethbalodi/CODE/project2-shashwb/tests";
 
 #endif
 

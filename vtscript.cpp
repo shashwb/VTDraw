@@ -21,6 +21,7 @@ int main(int argc, char* argv[]) {
 	Interpreter inter;
 	ifstream expression;
 
+
 	if (argc <=	1) {
 		while (argc) {
 			string arguments_from_command_line;

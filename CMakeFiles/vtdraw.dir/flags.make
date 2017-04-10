@@ -6,5 +6,5 @@ CXX_FLAGS =  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacO
 
 CXX_DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB
 
-CXX_INCLUDES = -I/Users/sethbalodi/Desktop/project2-shashwb -iframework /Users/sethbalodi/Qt5.8.0/5.8/clang_64/lib -isystem /Users/sethbalodi/Qt5.8.0/5.8/clang_64/lib/QtWidgets.framework/Headers -isystem /Users/sethbalodi/Qt5.8.0/5.8/clang_64/lib/QtGui.framework/Headers -isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/OpenGL.framework/Headers -isystem /Users/sethbalodi/Qt5.8.0/5.8/clang_64/lib/QtCore.framework/Headers -isystem /Users/sethbalodi/Qt5.8.0/5.8/clang_64/./mkspecs/macx-clang 
+CXX_INCLUDES = -I/Users/sethbalodi/CODE/project2-shashwb -iframework /Users/sethbalodi/Qt5.8.0/5.8/clang_64/lib -isystem /Users/sethbalodi/Qt5.8.0/5.8/clang_64/lib/QtWidgets.framework/Headers -isystem /Users/sethbalodi/Qt5.8.0/5.8/clang_64/lib/QtGui.framework/Headers -isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/OpenGL.framework/Headers -isystem /Users/sethbalodi/Qt5.8.0/5.8/clang_64/lib/QtCore.framework/Headers -isystem /Users/sethbalodi/Qt5.8.0/5.8/clang_64/./mkspecs/macx-clang 
 

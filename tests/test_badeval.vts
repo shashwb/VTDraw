@@ -1,2 +1,0 @@
-; this should cause a semantic error
-(define pi 1)

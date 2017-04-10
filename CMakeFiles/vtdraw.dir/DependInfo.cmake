@@ -4,18 +4,18 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/sethbalodi/Desktop/project2-shashwb/canvas_widget.cpp" "/Users/sethbalodi/Desktop/project2-shashwb/CMakeFiles/vtdraw.dir/canvas_widget.cpp.o"
-  "/Users/sethbalodi/Desktop/project2-shashwb/environment.cpp" "/Users/sethbalodi/Desktop/project2-shashwb/CMakeFiles/vtdraw.dir/environment.cpp.o"
-  "/Users/sethbalodi/Desktop/project2-shashwb/expression.cpp" "/Users/sethbalodi/Desktop/project2-shashwb/CMakeFiles/vtdraw.dir/expression.cpp.o"
-  "/Users/sethbalodi/Desktop/project2-shashwb/interpreter.cpp" "/Users/sethbalodi/Desktop/project2-shashwb/CMakeFiles/vtdraw.dir/interpreter.cpp.o"
-  "/Users/sethbalodi/Desktop/project2-shashwb/main_window.cpp" "/Users/sethbalodi/Desktop/project2-shashwb/CMakeFiles/vtdraw.dir/main_window.cpp.o"
-  "/Users/sethbalodi/Desktop/project2-shashwb/message_widget.cpp" "/Users/sethbalodi/Desktop/project2-shashwb/CMakeFiles/vtdraw.dir/message_widget.cpp.o"
-  "/Users/sethbalodi/Desktop/project2-shashwb/qgraphics_arc_item.cpp" "/Users/sethbalodi/Desktop/project2-shashwb/CMakeFiles/vtdraw.dir/qgraphics_arc_item.cpp.o"
-  "/Users/sethbalodi/Desktop/project2-shashwb/qt_interpreter.cpp" "/Users/sethbalodi/Desktop/project2-shashwb/CMakeFiles/vtdraw.dir/qt_interpreter.cpp.o"
-  "/Users/sethbalodi/Desktop/project2-shashwb/repl_widget.cpp" "/Users/sethbalodi/Desktop/project2-shashwb/CMakeFiles/vtdraw.dir/repl_widget.cpp.o"
-  "/Users/sethbalodi/Desktop/project2-shashwb/tokenize.cpp" "/Users/sethbalodi/Desktop/project2-shashwb/CMakeFiles/vtdraw.dir/tokenize.cpp.o"
-  "/Users/sethbalodi/Desktop/project2-shashwb/vtdraw.cpp" "/Users/sethbalodi/Desktop/project2-shashwb/CMakeFiles/vtdraw.dir/vtdraw.cpp.o"
-  "/Users/sethbalodi/Desktop/project2-shashwb/vtdraw_automoc.cpp" "/Users/sethbalodi/Desktop/project2-shashwb/CMakeFiles/vtdraw.dir/vtdraw_automoc.cpp.o"
+  "/Users/sethbalodi/CODE/project2-shashwb/canvas_widget.cpp" "/Users/sethbalodi/CODE/project2-shashwb/CMakeFiles/vtdraw.dir/canvas_widget.cpp.o"
+  "/Users/sethbalodi/CODE/project2-shashwb/environment.cpp" "/Users/sethbalodi/CODE/project2-shashwb/CMakeFiles/vtdraw.dir/environment.cpp.o"
+  "/Users/sethbalodi/CODE/project2-shashwb/expression.cpp" "/Users/sethbalodi/CODE/project2-shashwb/CMakeFiles/vtdraw.dir/expression.cpp.o"
+  "/Users/sethbalodi/CODE/project2-shashwb/interpreter.cpp" "/Users/sethbalodi/CODE/project2-shashwb/CMakeFiles/vtdraw.dir/interpreter.cpp.o"
+  "/Users/sethbalodi/CODE/project2-shashwb/main_window.cpp" "/Users/sethbalodi/CODE/project2-shashwb/CMakeFiles/vtdraw.dir/main_window.cpp.o"
+  "/Users/sethbalodi/CODE/project2-shashwb/message_widget.cpp" "/Users/sethbalodi/CODE/project2-shashwb/CMakeFiles/vtdraw.dir/message_widget.cpp.o"
+  "/Users/sethbalodi/CODE/project2-shashwb/qgraphics_arc_item.cpp" "/Users/sethbalodi/CODE/project2-shashwb/CMakeFiles/vtdraw.dir/qgraphics_arc_item.cpp.o"
+  "/Users/sethbalodi/CODE/project2-shashwb/qt_interpreter.cpp" "/Users/sethbalodi/CODE/project2-shashwb/CMakeFiles/vtdraw.dir/qt_interpreter.cpp.o"
+  "/Users/sethbalodi/CODE/project2-shashwb/repl_widget.cpp" "/Users/sethbalodi/CODE/project2-shashwb/CMakeFiles/vtdraw.dir/repl_widget.cpp.o"
+  "/Users/sethbalodi/CODE/project2-shashwb/tokenize.cpp" "/Users/sethbalodi/CODE/project2-shashwb/CMakeFiles/vtdraw.dir/tokenize.cpp.o"
+  "/Users/sethbalodi/CODE/project2-shashwb/vtdraw.cpp" "/Users/sethbalodi/CODE/project2-shashwb/CMakeFiles/vtdraw.dir/vtdraw.cpp.o"
+  "/Users/sethbalodi/CODE/project2-shashwb/vtdraw_automoc.cpp" "/Users/sethbalodi/CODE/project2-shashwb/CMakeFiles/vtdraw.dir/vtdraw_automoc.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

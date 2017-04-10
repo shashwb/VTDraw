@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/Users/sethbalodi/Desktop/project2-shashwb/canvas_widget.cpp
+/Users/sethbalodi/CODE/project2-shashwb/canvas_widget.cpp
 canvas_widget.hpp
-/Users/sethbalodi/Desktop/project2-shashwb/canvas_widget.hpp
+/Users/sethbalodi/CODE/project2-shashwb/canvas_widget.hpp
 
-/Users/sethbalodi/Desktop/project2-shashwb/canvas_widget.hpp
+/Users/sethbalodi/CODE/project2-shashwb/canvas_widget.hpp
 QWidget
 -
 QString
@@ -20,13 +20,13 @@ QGraphicsWidget
 QGraphicsView
 -
 
-/Users/sethbalodi/Desktop/project2-shashwb/environment.cpp
+/Users/sethbalodi/CODE/project2-shashwb/environment.cpp
 environment.hpp
-/Users/sethbalodi/Desktop/project2-shashwb/environment.hpp
+/Users/sethbalodi/CODE/project2-shashwb/environment.hpp
 math.h
-/Users/sethbalodi/Desktop/project2-shashwb/math.h
+/Users/sethbalodi/CODE/project2-shashwb/math.h
 
-/Users/sethbalodi/Desktop/project2-shashwb/environment.hpp
+/Users/sethbalodi/CODE/project2-shashwb/environment.hpp
 unordered_map
 -
 string
@@ -34,17 +34,17 @@ string
 cmath
 -
 expression.hpp
-/Users/sethbalodi/Desktop/project2-shashwb/expression.hpp
+/Users/sethbalodi/CODE/project2-shashwb/expression.hpp
 
-/Users/sethbalodi/Desktop/project2-shashwb/expression.cpp
+/Users/sethbalodi/CODE/project2-shashwb/expression.cpp
 expression.hpp
-/Users/sethbalodi/Desktop/project2-shashwb/expression.hpp
+/Users/sethbalodi/CODE/project2-shashwb/expression.hpp
 cstring
 -
 string
 -
 
-/Users/sethbalodi/Desktop/project2-shashwb/expression.hpp
+/Users/sethbalodi/CODE/project2-shashwb/expression.hpp
 string
 -
 iostream
@@ -54,13 +54,13 @@ cstring
 tuple
 -
 
-/Users/sethbalodi/Desktop/project2-shashwb/interpreter.cpp
+/Users/sethbalodi/CODE/project2-shashwb/interpreter.cpp
 interpreter.hpp
-/Users/sethbalodi/Desktop/project2-shashwb/interpreter.hpp
+/Users/sethbalodi/CODE/project2-shashwb/interpreter.hpp
 tokenize.hpp
-/Users/sethbalodi/Desktop/project2-shashwb/tokenize.hpp
+/Users/sethbalodi/CODE/project2-shashwb/tokenize.hpp
 expression.hpp
-/Users/sethbalodi/Desktop/project2-shashwb/expression.hpp
+/Users/sethbalodi/CODE/project2-shashwb/expression.hpp
 stack
 -
 algorithm
@@ -68,7 +68,7 @@ algorithm
 regex
 -
 
-/Users/sethbalodi/Desktop/project2-shashwb/interpreter.hpp
+/Users/sethbalodi/CODE/project2-shashwb/interpreter.hpp
 iostream
 -
 string
@@ -84,21 +84,21 @@ sstream
 queue
 -
 expression.hpp
-/Users/sethbalodi/Desktop/project2-shashwb/expression.hpp
+/Users/sethbalodi/CODE/project2-shashwb/expression.hpp
 environment.hpp
-/Users/sethbalodi/Desktop/project2-shashwb/environment.hpp
+/Users/sethbalodi/CODE/project2-shashwb/environment.hpp
 
-/Users/sethbalodi/Desktop/project2-shashwb/main_window.cpp
+/Users/sethbalodi/CODE/project2-shashwb/main_window.cpp
 main_window.hpp
-/Users/sethbalodi/Desktop/project2-shashwb/main_window.hpp
+/Users/sethbalodi/CODE/project2-shashwb/main_window.hpp
 message_widget.hpp
-/Users/sethbalodi/Desktop/project2-shashwb/message_widget.hpp
+/Users/sethbalodi/CODE/project2-shashwb/message_widget.hpp
 repl_widget.hpp
-/Users/sethbalodi/Desktop/project2-shashwb/repl_widget.hpp
+/Users/sethbalodi/CODE/project2-shashwb/repl_widget.hpp
 canvas_widget.hpp
-/Users/sethbalodi/Desktop/project2-shashwb/canvas_widget.hpp
+/Users/sethbalodi/CODE/project2-shashwb/canvas_widget.hpp
 
-/Users/sethbalodi/Desktop/project2-shashwb/main_window.hpp
+/Users/sethbalodi/CODE/project2-shashwb/main_window.hpp
 QWidget
 -
 QLineEdit
@@ -112,23 +112,21 @@ QHBoxLayout
 QVBoxLayout
 -
 
-/Users/sethbalodi/Desktop/project2-shashwb/message_widget.cpp
+/Users/sethbalodi/CODE/project2-shashwb/message_widget.cpp
 message_widget.hpp
-/Users/sethbalodi/Desktop/project2-shashwb/message_widget.hpp
+/Users/sethbalodi/CODE/project2-shashwb/message_widget.hpp
 
-/Users/sethbalodi/Desktop/project2-shashwb/message_widget.hpp
-message_widget.hpp
-/Users/sethbalodi/Desktop/project2-shashwb/message_widget.hpp
+/Users/sethbalodi/CODE/project2-shashwb/message_widget.hpp
 QWidget
 -
 QLineEdit
 -
-Qlabel
+QLabel
 -
 
-/Users/sethbalodi/Desktop/project2-shashwb/qgraphics_arc_item.cpp
+/Users/sethbalodi/CODE/project2-shashwb/qgraphics_arc_item.cpp
 qgraphics_arc_item.hpp
-/Users/sethbalodi/Desktop/project2-shashwb/qgraphics_arc_item.hpp
+/Users/sethbalodi/CODE/project2-shashwb/qgraphics_arc_item.hpp
 QGraphicsEllipseItem
 -
 QStyleOptionGraphicsItem
@@ -136,33 +134,33 @@ QStyleOptionGraphicsItem
 QPainter
 -
 
-/Users/sethbalodi/Desktop/project2-shashwb/qgraphics_arc_item.hpp
+/Users/sethbalodi/CODE/project2-shashwb/qgraphics_arc_item.hpp
 QGraphicsEllipseItem
 -
 QWidget
 -
 
-/Users/sethbalodi/Desktop/project2-shashwb/qt_interpreter.cpp
+/Users/sethbalodi/CODE/project2-shashwb/qt_interpreter.cpp
 qt_interpreter.hpp
-/Users/sethbalodi/Desktop/project2-shashwb/qt_interpreter.hpp
+/Users/sethbalodi/CODE/project2-shashwb/qt_interpreter.hpp
 QObject
 -
 
-/Users/sethbalodi/Desktop/project2-shashwb/qt_interpreter.hpp
+/Users/sethbalodi/CODE/project2-shashwb/qt_interpreter.hpp
 QWidget
 -
 interpreter.hpp
-/Users/sethbalodi/Desktop/project2-shashwb/interpreter.hpp
+/Users/sethbalodi/CODE/project2-shashwb/interpreter.hpp
 QGraphicsItem
 -
 QObject
 -
 
-/Users/sethbalodi/Desktop/project2-shashwb/repl_widget.cpp
+/Users/sethbalodi/CODE/project2-shashwb/repl_widget.cpp
 repl_widget.hpp
-/Users/sethbalodi/Desktop/project2-shashwb/repl_widget.hpp
+/Users/sethbalodi/CODE/project2-shashwb/repl_widget.hpp
 
-/Users/sethbalodi/Desktop/project2-shashwb/repl_widget.hpp
+/Users/sethbalodi/CODE/project2-shashwb/repl_widget.hpp
 QGraphicsItem
 -
 QWidget
@@ -172,7 +170,7 @@ QLineEdit
 QLabel
 -
 
-/Users/sethbalodi/Desktop/project2-shashwb/test_gui.cpp
+/Users/sethbalodi/CODE/project2-shashwb/test_gui.cpp
 QDebug
 -
 QtTest/QtTest
@@ -180,69 +178,69 @@ QtTest/QtTest
 QtWidgets
 -
 canvas_widget.hpp
-/Users/sethbalodi/Desktop/project2-shashwb/canvas_widget.hpp
+/Users/sethbalodi/CODE/project2-shashwb/canvas_widget.hpp
 main_window.hpp
-/Users/sethbalodi/Desktop/project2-shashwb/main_window.hpp
+/Users/sethbalodi/CODE/project2-shashwb/main_window.hpp
 message_widget.hpp
-/Users/sethbalodi/Desktop/project2-shashwb/message_widget.hpp
+/Users/sethbalodi/CODE/project2-shashwb/message_widget.hpp
 repl_widget.hpp
-/Users/sethbalodi/Desktop/project2-shashwb/repl_widget.hpp
+/Users/sethbalodi/CODE/project2-shashwb/repl_widget.hpp
 test_gui.moc
-/Users/sethbalodi/Desktop/project2-shashwb/test_gui.moc
+/Users/sethbalodi/CODE/project2-shashwb/test_gui.moc
 
-/Users/sethbalodi/Desktop/project2-shashwb/test_gui.moc
+/Users/sethbalodi/CODE/project2-shashwb/test_gui.moc
 QtCore/qbytearray.h
 -
 QtCore/qmetatype.h
 -
 
-/Users/sethbalodi/Desktop/project2-shashwb/test_gui_automoc.cpp
+/Users/sethbalodi/CODE/project2-shashwb/test_gui_automoc.cpp
 test_gui_automoc.dir/moc_main_window_PDWQDELGOBWNIT.cpp
-/Users/sethbalodi/Desktop/project2-shashwb/test_gui_automoc.dir/moc_main_window_PDWQDELGOBWNIT.cpp
+/Users/sethbalodi/CODE/project2-shashwb/test_gui_automoc.dir/moc_main_window_PDWQDELGOBWNIT.cpp
 test_gui_automoc.dir/moc_message_widget_XRKBLSHXA5KY3B.cpp
-/Users/sethbalodi/Desktop/project2-shashwb/test_gui_automoc.dir/moc_message_widget_XRKBLSHXA5KY3B.cpp
+/Users/sethbalodi/CODE/project2-shashwb/test_gui_automoc.dir/moc_message_widget_XRKBLSHXA5KY3B.cpp
 test_gui_automoc.dir/moc_qt_interpreter_SJKRZURFDCGMJI.cpp
-/Users/sethbalodi/Desktop/project2-shashwb/test_gui_automoc.dir/moc_qt_interpreter_SJKRZURFDCGMJI.cpp
+/Users/sethbalodi/CODE/project2-shashwb/test_gui_automoc.dir/moc_qt_interpreter_SJKRZURFDCGMJI.cpp
 test_gui_automoc.dir/moc_repl_widget_AWW4P6T2KNIT2C.cpp
-/Users/sethbalodi/Desktop/project2-shashwb/test_gui_automoc.dir/moc_repl_widget_AWW4P6T2KNIT2C.cpp
+/Users/sethbalodi/CODE/project2-shashwb/test_gui_automoc.dir/moc_repl_widget_AWW4P6T2KNIT2C.cpp
 
-/Users/sethbalodi/Desktop/project2-shashwb/test_gui_automoc.dir/moc_main_window_PDWQDELGOBWNIT.cpp
+/Users/sethbalodi/CODE/project2-shashwb/test_gui_automoc.dir/moc_main_window_PDWQDELGOBWNIT.cpp
 ../main_window.hpp
-/Users/sethbalodi/Desktop/project2-shashwb/main_window.hpp
+/Users/sethbalodi/CODE/project2-shashwb/main_window.hpp
 QtCore/qbytearray.h
 -
 QtCore/qmetatype.h
 -
 
-/Users/sethbalodi/Desktop/project2-shashwb/test_gui_automoc.dir/moc_message_widget_XRKBLSHXA5KY3B.cpp
+/Users/sethbalodi/CODE/project2-shashwb/test_gui_automoc.dir/moc_message_widget_XRKBLSHXA5KY3B.cpp
 ../message_widget.hpp
-/Users/sethbalodi/Desktop/project2-shashwb/message_widget.hpp
+/Users/sethbalodi/CODE/project2-shashwb/message_widget.hpp
 QtCore/qbytearray.h
 -
 QtCore/qmetatype.h
 -
 
-/Users/sethbalodi/Desktop/project2-shashwb/test_gui_automoc.dir/moc_qt_interpreter_SJKRZURFDCGMJI.cpp
+/Users/sethbalodi/CODE/project2-shashwb/test_gui_automoc.dir/moc_qt_interpreter_SJKRZURFDCGMJI.cpp
 ../qt_interpreter.hpp
-/Users/sethbalodi/Desktop/project2-shashwb/qt_interpreter.hpp
+/Users/sethbalodi/CODE/project2-shashwb/qt_interpreter.hpp
 QtCore/qbytearray.h
 -
 QtCore/qmetatype.h
 -
 
-/Users/sethbalodi/Desktop/project2-shashwb/test_gui_automoc.dir/moc_repl_widget_AWW4P6T2KNIT2C.cpp
+/Users/sethbalodi/CODE/project2-shashwb/test_gui_automoc.dir/moc_repl_widget_AWW4P6T2KNIT2C.cpp
 ../repl_widget.hpp
-/Users/sethbalodi/Desktop/project2-shashwb/repl_widget.hpp
+/Users/sethbalodi/CODE/project2-shashwb/repl_widget.hpp
 QtCore/qbytearray.h
 -
 QtCore/qmetatype.h
 -
 
-/Users/sethbalodi/Desktop/project2-shashwb/tokenize.cpp
+/Users/sethbalodi/CODE/project2-shashwb/tokenize.cpp
 tokenize.hpp
-/Users/sethbalodi/Desktop/project2-shashwb/tokenize.hpp
+/Users/sethbalodi/CODE/project2-shashwb/tokenize.hpp
 
-/Users/sethbalodi/Desktop/project2-shashwb/tokenize.hpp
+/Users/sethbalodi/CODE/project2-shashwb/tokenize.hpp
 string
 -
 iostream
@@ -411,10 +409,6 @@ qboxlayout.h
 /Users/sethbalodi/Qt5.8.0/5.8/clang_64/lib/QtWidgets.framework/Headers/QWidget
 qwidget.h
 /Users/sethbalodi/Qt5.8.0/5.8/clang_64/lib/QtWidgets.framework/Headers/qwidget.h
-
-/Users/sethbalodi/Qt5.8.0/5.8/clang_64/lib/QtWidgets.framework/Headers/Qlabel
-qlabel.h
-/Users/sethbalodi/Qt5.8.0/5.8/clang_64/lib/QtWidgets.framework/Headers/qlabel.h
 
 /Users/sethbalodi/Qt5.8.0/5.8/clang_64/lib/QtWidgets.framework/Headers/qboxlayout.h
 QtWidgets/qtwidgetsglobal.h

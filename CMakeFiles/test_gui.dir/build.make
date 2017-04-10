@@ -43,10 +43,10 @@ RM = /usr/local/Cellar/cmake/3.7.2/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/sethbalodi/Desktop/project2-shashwb
+CMAKE_SOURCE_DIR = /Users/sethbalodi/CODE/project2-shashwb
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/sethbalodi/Desktop/project2-shashwb
+CMAKE_BINARY_DIR = /Users/sethbalodi/CODE/project2-shashwb
 
 # Include any dependencies generated for this target.
 include CMakeFiles/test_gui.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/test_gui.dir/flags.make
 
 CMakeFiles/test_gui.dir/test_gui.cpp.o: CMakeFiles/test_gui.dir/flags.make
 CMakeFiles/test_gui.dir/test_gui.cpp.o: test_gui.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sethbalodi/Desktop/project2-shashwb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/test_gui.dir/test_gui.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_gui.dir/test_gui.cpp.o -c /Users/sethbalodi/Desktop/project2-shashwb/test_gui.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sethbalodi/CODE/project2-shashwb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/test_gui.dir/test_gui.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_gui.dir/test_gui.cpp.o -c /Users/sethbalodi/CODE/project2-shashwb/test_gui.cpp
 
 CMakeFiles/test_gui.dir/test_gui.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_gui.dir/test_gui.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sethbalodi/Desktop/project2-shashwb/test_gui.cpp > CMakeFiles/test_gui.dir/test_gui.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sethbalodi/CODE/project2-shashwb/test_gui.cpp > CMakeFiles/test_gui.dir/test_gui.cpp.i
 
 CMakeFiles/test_gui.dir/test_gui.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_gui.dir/test_gui.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sethbalodi/Desktop/project2-shashwb/test_gui.cpp -o CMakeFiles/test_gui.dir/test_gui.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sethbalodi/CODE/project2-shashwb/test_gui.cpp -o CMakeFiles/test_gui.dir/test_gui.cpp.s
 
 CMakeFiles/test_gui.dir/test_gui.cpp.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/test_gui.dir/test_gui.cpp.o.provides.build: CMakeFiles/test_gui.dir/t
 
 CMakeFiles/test_gui.dir/qgraphics_arc_item.cpp.o: CMakeFiles/test_gui.dir/flags.make
 CMakeFiles/test_gui.dir/qgraphics_arc_item.cpp.o: qgraphics_arc_item.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sethbalodi/Desktop/project2-shashwb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/test_gui.dir/qgraphics_arc_item.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_gui.dir/qgraphics_arc_item.cpp.o -c /Users/sethbalodi/Desktop/project2-shashwb/qgraphics_arc_item.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sethbalodi/CODE/project2-shashwb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/test_gui.dir/qgraphics_arc_item.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_gui.dir/qgraphics_arc_item.cpp.o -c /Users/sethbalodi/CODE/project2-shashwb/qgraphics_arc_item.cpp
 
 CMakeFiles/test_gui.dir/qgraphics_arc_item.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_gui.dir/qgraphics_arc_item.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sethbalodi/Desktop/project2-shashwb/qgraphics_arc_item.cpp > CMakeFiles/test_gui.dir/qgraphics_arc_item.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sethbalodi/CODE/project2-shashwb/qgraphics_arc_item.cpp > CMakeFiles/test_gui.dir/qgraphics_arc_item.cpp.i
 
 CMakeFiles/test_gui.dir/qgraphics_arc_item.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_gui.dir/qgraphics_arc_item.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sethbalodi/Desktop/project2-shashwb/qgraphics_arc_item.cpp -o CMakeFiles/test_gui.dir/qgraphics_arc_item.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sethbalodi/CODE/project2-shashwb/qgraphics_arc_item.cpp -o CMakeFiles/test_gui.dir/qgraphics_arc_item.cpp.s
 
 CMakeFiles/test_gui.dir/qgraphics_arc_item.cpp.o.requires:
 
@@ -107,16 +107,16 @@ CMakeFiles/test_gui.dir/qgraphics_arc_item.cpp.o.provides.build: CMakeFiles/test
 
 CMakeFiles/test_gui.dir/message_widget.cpp.o: CMakeFiles/test_gui.dir/flags.make
 CMakeFiles/test_gui.dir/message_widget.cpp.o: message_widget.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sethbalodi/Desktop/project2-shashwb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/test_gui.dir/message_widget.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_gui.dir/message_widget.cpp.o -c /Users/sethbalodi/Desktop/project2-shashwb/message_widget.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sethbalodi/CODE/project2-shashwb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/test_gui.dir/message_widget.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_gui.dir/message_widget.cpp.o -c /Users/sethbalodi/CODE/project2-shashwb/message_widget.cpp
 
 CMakeFiles/test_gui.dir/message_widget.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_gui.dir/message_widget.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sethbalodi/Desktop/project2-shashwb/message_widget.cpp > CMakeFiles/test_gui.dir/message_widget.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sethbalodi/CODE/project2-shashwb/message_widget.cpp > CMakeFiles/test_gui.dir/message_widget.cpp.i
 
 CMakeFiles/test_gui.dir/message_widget.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_gui.dir/message_widget.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sethbalodi/Desktop/project2-shashwb/message_widget.cpp -o CMakeFiles/test_gui.dir/message_widget.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sethbalodi/CODE/project2-shashwb/message_widget.cpp -o CMakeFiles/test_gui.dir/message_widget.cpp.s
 
 CMakeFiles/test_gui.dir/message_widget.cpp.o.requires:
 
@@ -131,16 +131,16 @@ CMakeFiles/test_gui.dir/message_widget.cpp.o.provides.build: CMakeFiles/test_gui
 
 CMakeFiles/test_gui.dir/canvas_widget.cpp.o: CMakeFiles/test_gui.dir/flags.make
 CMakeFiles/test_gui.dir/canvas_widget.cpp.o: canvas_widget.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sethbalodi/Desktop/project2-shashwb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/test_gui.dir/canvas_widget.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_gui.dir/canvas_widget.cpp.o -c /Users/sethbalodi/Desktop/project2-shashwb/canvas_widget.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sethbalodi/CODE/project2-shashwb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/test_gui.dir/canvas_widget.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_gui.dir/canvas_widget.cpp.o -c /Users/sethbalodi/CODE/project2-shashwb/canvas_widget.cpp
 
 CMakeFiles/test_gui.dir/canvas_widget.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_gui.dir/canvas_widget.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sethbalodi/Desktop/project2-shashwb/canvas_widget.cpp > CMakeFiles/test_gui.dir/canvas_widget.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sethbalodi/CODE/project2-shashwb/canvas_widget.cpp > CMakeFiles/test_gui.dir/canvas_widget.cpp.i
 
 CMakeFiles/test_gui.dir/canvas_widget.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_gui.dir/canvas_widget.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sethbalodi/Desktop/project2-shashwb/canvas_widget.cpp -o CMakeFiles/test_gui.dir/canvas_widget.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sethbalodi/CODE/project2-shashwb/canvas_widget.cpp -o CMakeFiles/test_gui.dir/canvas_widget.cpp.s
 
 CMakeFiles/test_gui.dir/canvas_widget.cpp.o.requires:
 
@@ -155,16 +155,16 @@ CMakeFiles/test_gui.dir/canvas_widget.cpp.o.provides.build: CMakeFiles/test_gui.
 
 CMakeFiles/test_gui.dir/repl_widget.cpp.o: CMakeFiles/test_gui.dir/flags.make
 CMakeFiles/test_gui.dir/repl_widget.cpp.o: repl_widget.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sethbalodi/Desktop/project2-shashwb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/test_gui.dir/repl_widget.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_gui.dir/repl_widget.cpp.o -c /Users/sethbalodi/Desktop/project2-shashwb/repl_widget.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sethbalodi/CODE/project2-shashwb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/test_gui.dir/repl_widget.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_gui.dir/repl_widget.cpp.o -c /Users/sethbalodi/CODE/project2-shashwb/repl_widget.cpp
 
 CMakeFiles/test_gui.dir/repl_widget.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_gui.dir/repl_widget.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sethbalodi/Desktop/project2-shashwb/repl_widget.cpp > CMakeFiles/test_gui.dir/repl_widget.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sethbalodi/CODE/project2-shashwb/repl_widget.cpp > CMakeFiles/test_gui.dir/repl_widget.cpp.i
 
 CMakeFiles/test_gui.dir/repl_widget.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_gui.dir/repl_widget.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sethbalodi/Desktop/project2-shashwb/repl_widget.cpp -o CMakeFiles/test_gui.dir/repl_widget.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sethbalodi/CODE/project2-shashwb/repl_widget.cpp -o CMakeFiles/test_gui.dir/repl_widget.cpp.s
 
 CMakeFiles/test_gui.dir/repl_widget.cpp.o.requires:
 
@@ -179,16 +179,16 @@ CMakeFiles/test_gui.dir/repl_widget.cpp.o.provides.build: CMakeFiles/test_gui.di
 
 CMakeFiles/test_gui.dir/qt_interpreter.cpp.o: CMakeFiles/test_gui.dir/flags.make
 CMakeFiles/test_gui.dir/qt_interpreter.cpp.o: qt_interpreter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sethbalodi/Desktop/project2-shashwb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/test_gui.dir/qt_interpreter.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_gui.dir/qt_interpreter.cpp.o -c /Users/sethbalodi/Desktop/project2-shashwb/qt_interpreter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sethbalodi/CODE/project2-shashwb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/test_gui.dir/qt_interpreter.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_gui.dir/qt_interpreter.cpp.o -c /Users/sethbalodi/CODE/project2-shashwb/qt_interpreter.cpp
 
 CMakeFiles/test_gui.dir/qt_interpreter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_gui.dir/qt_interpreter.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sethbalodi/Desktop/project2-shashwb/qt_interpreter.cpp > CMakeFiles/test_gui.dir/qt_interpreter.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sethbalodi/CODE/project2-shashwb/qt_interpreter.cpp > CMakeFiles/test_gui.dir/qt_interpreter.cpp.i
 
 CMakeFiles/test_gui.dir/qt_interpreter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_gui.dir/qt_interpreter.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sethbalodi/Desktop/project2-shashwb/qt_interpreter.cpp -o CMakeFiles/test_gui.dir/qt_interpreter.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sethbalodi/CODE/project2-shashwb/qt_interpreter.cpp -o CMakeFiles/test_gui.dir/qt_interpreter.cpp.s
 
 CMakeFiles/test_gui.dir/qt_interpreter.cpp.o.requires:
 
@@ -203,16 +203,16 @@ CMakeFiles/test_gui.dir/qt_interpreter.cpp.o.provides.build: CMakeFiles/test_gui
 
 CMakeFiles/test_gui.dir/main_window.cpp.o: CMakeFiles/test_gui.dir/flags.make
 CMakeFiles/test_gui.dir/main_window.cpp.o: main_window.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sethbalodi/Desktop/project2-shashwb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/test_gui.dir/main_window.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_gui.dir/main_window.cpp.o -c /Users/sethbalodi/Desktop/project2-shashwb/main_window.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sethbalodi/CODE/project2-shashwb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/test_gui.dir/main_window.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_gui.dir/main_window.cpp.o -c /Users/sethbalodi/CODE/project2-shashwb/main_window.cpp
 
 CMakeFiles/test_gui.dir/main_window.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_gui.dir/main_window.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sethbalodi/Desktop/project2-shashwb/main_window.cpp > CMakeFiles/test_gui.dir/main_window.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sethbalodi/CODE/project2-shashwb/main_window.cpp > CMakeFiles/test_gui.dir/main_window.cpp.i
 
 CMakeFiles/test_gui.dir/main_window.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_gui.dir/main_window.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sethbalodi/Desktop/project2-shashwb/main_window.cpp -o CMakeFiles/test_gui.dir/main_window.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sethbalodi/CODE/project2-shashwb/main_window.cpp -o CMakeFiles/test_gui.dir/main_window.cpp.s
 
 CMakeFiles/test_gui.dir/main_window.cpp.o.requires:
 
@@ -227,16 +227,16 @@ CMakeFiles/test_gui.dir/main_window.cpp.o.provides.build: CMakeFiles/test_gui.di
 
 CMakeFiles/test_gui.dir/tokenize.cpp.o: CMakeFiles/test_gui.dir/flags.make
 CMakeFiles/test_gui.dir/tokenize.cpp.o: tokenize.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sethbalodi/Desktop/project2-shashwb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/test_gui.dir/tokenize.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_gui.dir/tokenize.cpp.o -c /Users/sethbalodi/Desktop/project2-shashwb/tokenize.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sethbalodi/CODE/project2-shashwb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/test_gui.dir/tokenize.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_gui.dir/tokenize.cpp.o -c /Users/sethbalodi/CODE/project2-shashwb/tokenize.cpp
 
 CMakeFiles/test_gui.dir/tokenize.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_gui.dir/tokenize.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sethbalodi/Desktop/project2-shashwb/tokenize.cpp > CMakeFiles/test_gui.dir/tokenize.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sethbalodi/CODE/project2-shashwb/tokenize.cpp > CMakeFiles/test_gui.dir/tokenize.cpp.i
 
 CMakeFiles/test_gui.dir/tokenize.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_gui.dir/tokenize.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sethbalodi/Desktop/project2-shashwb/tokenize.cpp -o CMakeFiles/test_gui.dir/tokenize.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sethbalodi/CODE/project2-shashwb/tokenize.cpp -o CMakeFiles/test_gui.dir/tokenize.cpp.s
 
 CMakeFiles/test_gui.dir/tokenize.cpp.o.requires:
 
@@ -251,16 +251,16 @@ CMakeFiles/test_gui.dir/tokenize.cpp.o.provides.build: CMakeFiles/test_gui.dir/t
 
 CMakeFiles/test_gui.dir/expression.cpp.o: CMakeFiles/test_gui.dir/flags.make
 CMakeFiles/test_gui.dir/expression.cpp.o: expression.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sethbalodi/Desktop/project2-shashwb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/test_gui.dir/expression.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_gui.dir/expression.cpp.o -c /Users/sethbalodi/Desktop/project2-shashwb/expression.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sethbalodi/CODE/project2-shashwb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/test_gui.dir/expression.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_gui.dir/expression.cpp.o -c /Users/sethbalodi/CODE/project2-shashwb/expression.cpp
 
 CMakeFiles/test_gui.dir/expression.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_gui.dir/expression.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sethbalodi/Desktop/project2-shashwb/expression.cpp > CMakeFiles/test_gui.dir/expression.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sethbalodi/CODE/project2-shashwb/expression.cpp > CMakeFiles/test_gui.dir/expression.cpp.i
 
 CMakeFiles/test_gui.dir/expression.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_gui.dir/expression.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sethbalodi/Desktop/project2-shashwb/expression.cpp -o CMakeFiles/test_gui.dir/expression.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sethbalodi/CODE/project2-shashwb/expression.cpp -o CMakeFiles/test_gui.dir/expression.cpp.s
 
 CMakeFiles/test_gui.dir/expression.cpp.o.requires:
 
@@ -275,16 +275,16 @@ CMakeFiles/test_gui.dir/expression.cpp.o.provides.build: CMakeFiles/test_gui.dir
 
 CMakeFiles/test_gui.dir/environment.cpp.o: CMakeFiles/test_gui.dir/flags.make
 CMakeFiles/test_gui.dir/environment.cpp.o: environment.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sethbalodi/Desktop/project2-shashwb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/test_gui.dir/environment.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_gui.dir/environment.cpp.o -c /Users/sethbalodi/Desktop/project2-shashwb/environment.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sethbalodi/CODE/project2-shashwb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/test_gui.dir/environment.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_gui.dir/environment.cpp.o -c /Users/sethbalodi/CODE/project2-shashwb/environment.cpp
 
 CMakeFiles/test_gui.dir/environment.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_gui.dir/environment.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sethbalodi/Desktop/project2-shashwb/environment.cpp > CMakeFiles/test_gui.dir/environment.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sethbalodi/CODE/project2-shashwb/environment.cpp > CMakeFiles/test_gui.dir/environment.cpp.i
 
 CMakeFiles/test_gui.dir/environment.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_gui.dir/environment.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sethbalodi/Desktop/project2-shashwb/environment.cpp -o CMakeFiles/test_gui.dir/environment.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sethbalodi/CODE/project2-shashwb/environment.cpp -o CMakeFiles/test_gui.dir/environment.cpp.s
 
 CMakeFiles/test_gui.dir/environment.cpp.o.requires:
 
@@ -299,16 +299,16 @@ CMakeFiles/test_gui.dir/environment.cpp.o.provides.build: CMakeFiles/test_gui.di
 
 CMakeFiles/test_gui.dir/interpreter.cpp.o: CMakeFiles/test_gui.dir/flags.make
 CMakeFiles/test_gui.dir/interpreter.cpp.o: interpreter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sethbalodi/Desktop/project2-shashwb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/test_gui.dir/interpreter.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_gui.dir/interpreter.cpp.o -c /Users/sethbalodi/Desktop/project2-shashwb/interpreter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sethbalodi/CODE/project2-shashwb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/test_gui.dir/interpreter.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_gui.dir/interpreter.cpp.o -c /Users/sethbalodi/CODE/project2-shashwb/interpreter.cpp
 
 CMakeFiles/test_gui.dir/interpreter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_gui.dir/interpreter.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sethbalodi/Desktop/project2-shashwb/interpreter.cpp > CMakeFiles/test_gui.dir/interpreter.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sethbalodi/CODE/project2-shashwb/interpreter.cpp > CMakeFiles/test_gui.dir/interpreter.cpp.i
 
 CMakeFiles/test_gui.dir/interpreter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_gui.dir/interpreter.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sethbalodi/Desktop/project2-shashwb/interpreter.cpp -o CMakeFiles/test_gui.dir/interpreter.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sethbalodi/CODE/project2-shashwb/interpreter.cpp -o CMakeFiles/test_gui.dir/interpreter.cpp.s
 
 CMakeFiles/test_gui.dir/interpreter.cpp.o.requires:
 
@@ -323,16 +323,16 @@ CMakeFiles/test_gui.dir/interpreter.cpp.o.provides.build: CMakeFiles/test_gui.di
 
 CMakeFiles/test_gui.dir/test_gui_automoc.cpp.o: CMakeFiles/test_gui.dir/flags.make
 CMakeFiles/test_gui.dir/test_gui_automoc.cpp.o: test_gui_automoc.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sethbalodi/Desktop/project2-shashwb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/test_gui.dir/test_gui_automoc.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_gui.dir/test_gui_automoc.cpp.o -c /Users/sethbalodi/Desktop/project2-shashwb/test_gui_automoc.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sethbalodi/CODE/project2-shashwb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/test_gui.dir/test_gui_automoc.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_gui.dir/test_gui_automoc.cpp.o -c /Users/sethbalodi/CODE/project2-shashwb/test_gui_automoc.cpp
 
 CMakeFiles/test_gui.dir/test_gui_automoc.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_gui.dir/test_gui_automoc.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sethbalodi/Desktop/project2-shashwb/test_gui_automoc.cpp > CMakeFiles/test_gui.dir/test_gui_automoc.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sethbalodi/CODE/project2-shashwb/test_gui_automoc.cpp > CMakeFiles/test_gui.dir/test_gui_automoc.cpp.i
 
 CMakeFiles/test_gui.dir/test_gui_automoc.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_gui.dir/test_gui_automoc.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sethbalodi/Desktop/project2-shashwb/test_gui_automoc.cpp -o CMakeFiles/test_gui.dir/test_gui_automoc.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sethbalodi/CODE/project2-shashwb/test_gui_automoc.cpp -o CMakeFiles/test_gui.dir/test_gui_automoc.cpp.s
 
 CMakeFiles/test_gui.dir/test_gui_automoc.cpp.o.requires:
 
@@ -381,7 +381,7 @@ test_gui: /Users/sethbalodi/Qt5.8.0/5.8/clang_64/lib/QtTest.framework/QtTest
 test_gui: /Users/sethbalodi/Qt5.8.0/5.8/clang_64/lib/QtGui.framework/QtGui
 test_gui: /Users/sethbalodi/Qt5.8.0/5.8/clang_64/lib/QtCore.framework/QtCore
 test_gui: CMakeFiles/test_gui.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/sethbalodi/Desktop/project2-shashwb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX executable test_gui"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/sethbalodi/CODE/project2-shashwb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX executable test_gui"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/test_gui.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -409,6 +409,6 @@ CMakeFiles/test_gui.dir/clean:
 .PHONY : CMakeFiles/test_gui.dir/clean
 
 CMakeFiles/test_gui.dir/depend:
-	cd /Users/sethbalodi/Desktop/project2-shashwb && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/sethbalodi/Desktop/project2-shashwb /Users/sethbalodi/Desktop/project2-shashwb /Users/sethbalodi/Desktop/project2-shashwb /Users/sethbalodi/Desktop/project2-shashwb /Users/sethbalodi/Desktop/project2-shashwb/CMakeFiles/test_gui.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/sethbalodi/CODE/project2-shashwb && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/sethbalodi/CODE/project2-shashwb /Users/sethbalodi/CODE/project2-shashwb /Users/sethbalodi/CODE/project2-shashwb /Users/sethbalodi/CODE/project2-shashwb /Users/sethbalodi/CODE/project2-shashwb/CMakeFiles/test_gui.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/test_gui.dir/depend
 

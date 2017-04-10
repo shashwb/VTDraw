@@ -43,10 +43,10 @@ RM = /usr/local/Cellar/cmake/3.7.2/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/sethbalodi/Desktop/project2-shashwb
+CMAKE_SOURCE_DIR = /Users/sethbalodi/CODE/project2-shashwb
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/sethbalodi/Desktop/project2-shashwb
+CMAKE_BINARY_DIR = /Users/sethbalodi/CODE/project2-shashwb
 
 # Include any dependencies generated for this target.
 include CMakeFiles/unittests.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/unittests.dir/flags.make
 
 CMakeFiles/unittests.dir/tokenize.cpp.o: CMakeFiles/unittests.dir/flags.make
 CMakeFiles/unittests.dir/tokenize.cpp.o: tokenize.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sethbalodi/Desktop/project2-shashwb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/unittests.dir/tokenize.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/unittests.dir/tokenize.cpp.o -c /Users/sethbalodi/Desktop/project2-shashwb/tokenize.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sethbalodi/CODE/project2-shashwb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/unittests.dir/tokenize.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/unittests.dir/tokenize.cpp.o -c /Users/sethbalodi/CODE/project2-shashwb/tokenize.cpp
 
 CMakeFiles/unittests.dir/tokenize.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/unittests.dir/tokenize.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sethbalodi/Desktop/project2-shashwb/tokenize.cpp > CMakeFiles/unittests.dir/tokenize.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sethbalodi/CODE/project2-shashwb/tokenize.cpp > CMakeFiles/unittests.dir/tokenize.cpp.i
 
 CMakeFiles/unittests.dir/tokenize.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/unittests.dir/tokenize.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sethbalodi/Desktop/project2-shashwb/tokenize.cpp -o CMakeFiles/unittests.dir/tokenize.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sethbalodi/CODE/project2-shashwb/tokenize.cpp -o CMakeFiles/unittests.dir/tokenize.cpp.s
 
 CMakeFiles/unittests.dir/tokenize.cpp.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/unittests.dir/tokenize.cpp.o.provides.build: CMakeFiles/unittests.dir
 
 CMakeFiles/unittests.dir/expression.cpp.o: CMakeFiles/unittests.dir/flags.make
 CMakeFiles/unittests.dir/expression.cpp.o: expression.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sethbalodi/Desktop/project2-shashwb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/unittests.dir/expression.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/unittests.dir/expression.cpp.o -c /Users/sethbalodi/Desktop/project2-shashwb/expression.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sethbalodi/CODE/project2-shashwb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/unittests.dir/expression.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/unittests.dir/expression.cpp.o -c /Users/sethbalodi/CODE/project2-shashwb/expression.cpp
 
 CMakeFiles/unittests.dir/expression.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/unittests.dir/expression.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sethbalodi/Desktop/project2-shashwb/expression.cpp > CMakeFiles/unittests.dir/expression.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sethbalodi/CODE/project2-shashwb/expression.cpp > CMakeFiles/unittests.dir/expression.cpp.i
 
 CMakeFiles/unittests.dir/expression.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/unittests.dir/expression.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sethbalodi/Desktop/project2-shashwb/expression.cpp -o CMakeFiles/unittests.dir/expression.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sethbalodi/CODE/project2-shashwb/expression.cpp -o CMakeFiles/unittests.dir/expression.cpp.s
 
 CMakeFiles/unittests.dir/expression.cpp.o.requires:
 
@@ -107,16 +107,16 @@ CMakeFiles/unittests.dir/expression.cpp.o.provides.build: CMakeFiles/unittests.d
 
 CMakeFiles/unittests.dir/environment.cpp.o: CMakeFiles/unittests.dir/flags.make
 CMakeFiles/unittests.dir/environment.cpp.o: environment.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sethbalodi/Desktop/project2-shashwb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/unittests.dir/environment.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/unittests.dir/environment.cpp.o -c /Users/sethbalodi/Desktop/project2-shashwb/environment.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sethbalodi/CODE/project2-shashwb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/unittests.dir/environment.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/unittests.dir/environment.cpp.o -c /Users/sethbalodi/CODE/project2-shashwb/environment.cpp
 
 CMakeFiles/unittests.dir/environment.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/unittests.dir/environment.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sethbalodi/Desktop/project2-shashwb/environment.cpp > CMakeFiles/unittests.dir/environment.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sethbalodi/CODE/project2-shashwb/environment.cpp > CMakeFiles/unittests.dir/environment.cpp.i
 
 CMakeFiles/unittests.dir/environment.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/unittests.dir/environment.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sethbalodi/Desktop/project2-shashwb/environment.cpp -o CMakeFiles/unittests.dir/environment.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sethbalodi/CODE/project2-shashwb/environment.cpp -o CMakeFiles/unittests.dir/environment.cpp.s
 
 CMakeFiles/unittests.dir/environment.cpp.o.requires:
 
@@ -131,16 +131,16 @@ CMakeFiles/unittests.dir/environment.cpp.o.provides.build: CMakeFiles/unittests.
 
 CMakeFiles/unittests.dir/interpreter.cpp.o: CMakeFiles/unittests.dir/flags.make
 CMakeFiles/unittests.dir/interpreter.cpp.o: interpreter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sethbalodi/Desktop/project2-shashwb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/unittests.dir/interpreter.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/unittests.dir/interpreter.cpp.o -c /Users/sethbalodi/Desktop/project2-shashwb/interpreter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sethbalodi/CODE/project2-shashwb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/unittests.dir/interpreter.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/unittests.dir/interpreter.cpp.o -c /Users/sethbalodi/CODE/project2-shashwb/interpreter.cpp
 
 CMakeFiles/unittests.dir/interpreter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/unittests.dir/interpreter.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sethbalodi/Desktop/project2-shashwb/interpreter.cpp > CMakeFiles/unittests.dir/interpreter.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sethbalodi/CODE/project2-shashwb/interpreter.cpp > CMakeFiles/unittests.dir/interpreter.cpp.i
 
 CMakeFiles/unittests.dir/interpreter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/unittests.dir/interpreter.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sethbalodi/Desktop/project2-shashwb/interpreter.cpp -o CMakeFiles/unittests.dir/interpreter.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sethbalodi/CODE/project2-shashwb/interpreter.cpp -o CMakeFiles/unittests.dir/interpreter.cpp.s
 
 CMakeFiles/unittests.dir/interpreter.cpp.o.requires:
 
@@ -155,16 +155,16 @@ CMakeFiles/unittests.dir/interpreter.cpp.o.provides.build: CMakeFiles/unittests.
 
 CMakeFiles/unittests.dir/unittests.cpp.o: CMakeFiles/unittests.dir/flags.make
 CMakeFiles/unittests.dir/unittests.cpp.o: unittests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sethbalodi/Desktop/project2-shashwb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/unittests.dir/unittests.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/unittests.dir/unittests.cpp.o -c /Users/sethbalodi/Desktop/project2-shashwb/unittests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sethbalodi/CODE/project2-shashwb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/unittests.dir/unittests.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/unittests.dir/unittests.cpp.o -c /Users/sethbalodi/CODE/project2-shashwb/unittests.cpp
 
 CMakeFiles/unittests.dir/unittests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/unittests.dir/unittests.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sethbalodi/Desktop/project2-shashwb/unittests.cpp > CMakeFiles/unittests.dir/unittests.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sethbalodi/CODE/project2-shashwb/unittests.cpp > CMakeFiles/unittests.dir/unittests.cpp.i
 
 CMakeFiles/unittests.dir/unittests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/unittests.dir/unittests.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sethbalodi/Desktop/project2-shashwb/unittests.cpp -o CMakeFiles/unittests.dir/unittests.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sethbalodi/CODE/project2-shashwb/unittests.cpp -o CMakeFiles/unittests.dir/unittests.cpp.s
 
 CMakeFiles/unittests.dir/unittests.cpp.o.requires:
 
@@ -179,16 +179,16 @@ CMakeFiles/unittests.dir/unittests.cpp.o.provides.build: CMakeFiles/unittests.di
 
 CMakeFiles/unittests.dir/test_interpreter.cpp.o: CMakeFiles/unittests.dir/flags.make
 CMakeFiles/unittests.dir/test_interpreter.cpp.o: test_interpreter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sethbalodi/Desktop/project2-shashwb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/unittests.dir/test_interpreter.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/unittests.dir/test_interpreter.cpp.o -c /Users/sethbalodi/Desktop/project2-shashwb/test_interpreter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sethbalodi/CODE/project2-shashwb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/unittests.dir/test_interpreter.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/unittests.dir/test_interpreter.cpp.o -c /Users/sethbalodi/CODE/project2-shashwb/test_interpreter.cpp
 
 CMakeFiles/unittests.dir/test_interpreter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/unittests.dir/test_interpreter.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sethbalodi/Desktop/project2-shashwb/test_interpreter.cpp > CMakeFiles/unittests.dir/test_interpreter.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sethbalodi/CODE/project2-shashwb/test_interpreter.cpp > CMakeFiles/unittests.dir/test_interpreter.cpp.i
 
 CMakeFiles/unittests.dir/test_interpreter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/unittests.dir/test_interpreter.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sethbalodi/Desktop/project2-shashwb/test_interpreter.cpp -o CMakeFiles/unittests.dir/test_interpreter.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sethbalodi/CODE/project2-shashwb/test_interpreter.cpp -o CMakeFiles/unittests.dir/test_interpreter.cpp.s
 
 CMakeFiles/unittests.dir/test_interpreter.cpp.o.requires:
 
@@ -203,16 +203,16 @@ CMakeFiles/unittests.dir/test_interpreter.cpp.o.provides.build: CMakeFiles/unitt
 
 CMakeFiles/unittests.dir/unittests_automoc.cpp.o: CMakeFiles/unittests.dir/flags.make
 CMakeFiles/unittests.dir/unittests_automoc.cpp.o: unittests_automoc.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sethbalodi/Desktop/project2-shashwb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/unittests.dir/unittests_automoc.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/unittests.dir/unittests_automoc.cpp.o -c /Users/sethbalodi/Desktop/project2-shashwb/unittests_automoc.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sethbalodi/CODE/project2-shashwb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/unittests.dir/unittests_automoc.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/unittests.dir/unittests_automoc.cpp.o -c /Users/sethbalodi/CODE/project2-shashwb/unittests_automoc.cpp
 
 CMakeFiles/unittests.dir/unittests_automoc.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/unittests.dir/unittests_automoc.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sethbalodi/Desktop/project2-shashwb/unittests_automoc.cpp > CMakeFiles/unittests.dir/unittests_automoc.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sethbalodi/CODE/project2-shashwb/unittests_automoc.cpp > CMakeFiles/unittests.dir/unittests_automoc.cpp.i
 
 CMakeFiles/unittests.dir/unittests_automoc.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/unittests.dir/unittests_automoc.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sethbalodi/Desktop/project2-shashwb/unittests_automoc.cpp -o CMakeFiles/unittests.dir/unittests_automoc.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sethbalodi/CODE/project2-shashwb/unittests_automoc.cpp -o CMakeFiles/unittests.dir/unittests_automoc.cpp.s
 
 CMakeFiles/unittests.dir/unittests_automoc.cpp.o.requires:
 
@@ -247,7 +247,7 @@ unittests: CMakeFiles/unittests.dir/test_interpreter.cpp.o
 unittests: CMakeFiles/unittests.dir/unittests_automoc.cpp.o
 unittests: CMakeFiles/unittests.dir/build.make
 unittests: CMakeFiles/unittests.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/sethbalodi/Desktop/project2-shashwb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable unittests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/sethbalodi/CODE/project2-shashwb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable unittests"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/unittests.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -270,6 +270,6 @@ CMakeFiles/unittests.dir/clean:
 .PHONY : CMakeFiles/unittests.dir/clean
 
 CMakeFiles/unittests.dir/depend:
-	cd /Users/sethbalodi/Desktop/project2-shashwb && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/sethbalodi/Desktop/project2-shashwb /Users/sethbalodi/Desktop/project2-shashwb /Users/sethbalodi/Desktop/project2-shashwb /Users/sethbalodi/Desktop/project2-shashwb /Users/sethbalodi/Desktop/project2-shashwb/CMakeFiles/unittests.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/sethbalodi/CODE/project2-shashwb && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/sethbalodi/CODE/project2-shashwb /Users/sethbalodi/CODE/project2-shashwb /Users/sethbalodi/CODE/project2-shashwb /Users/sethbalodi/CODE/project2-shashwb /Users/sethbalodi/CODE/project2-shashwb/CMakeFiles/unittests.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/unittests.dir/depend
 

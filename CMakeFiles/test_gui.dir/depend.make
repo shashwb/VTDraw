@@ -40,7 +40,6 @@ CMakeFiles/test_gui.dir/main_window.cpp.o: /Users/sethbalodi/Qt5.8.0/5.8/clang_6
 CMakeFiles/test_gui.dir/main_window.cpp.o: /Users/sethbalodi/Qt5.8.0/5.8/clang_64/lib/QtWidgets.framework/Headers/QLineEdit
 CMakeFiles/test_gui.dir/main_window.cpp.o: /Users/sethbalodi/Qt5.8.0/5.8/clang_64/lib/QtWidgets.framework/Headers/QVBoxLayout
 CMakeFiles/test_gui.dir/main_window.cpp.o: /Users/sethbalodi/Qt5.8.0/5.8/clang_64/lib/QtWidgets.framework/Headers/QWidget
-CMakeFiles/test_gui.dir/main_window.cpp.o: /Users/sethbalodi/Qt5.8.0/5.8/clang_64/lib/QtWidgets.framework/Headers/Qlabel
 CMakeFiles/test_gui.dir/main_window.cpp.o: /Users/sethbalodi/Qt5.8.0/5.8/clang_64/lib/QtWidgets.framework/Headers/qboxlayout.h
 CMakeFiles/test_gui.dir/main_window.cpp.o: /Users/sethbalodi/Qt5.8.0/5.8/clang_64/lib/QtWidgets.framework/Headers/qgraphicsitem.h
 CMakeFiles/test_gui.dir/main_window.cpp.o: /Users/sethbalodi/Qt5.8.0/5.8/clang_64/lib/QtWidgets.framework/Headers/qgraphicsview.h
@@ -51,9 +50,9 @@ CMakeFiles/test_gui.dir/main_window.cpp.o: /Users/sethbalodi/Qt5.8.0/5.8/clang_6
 
 CMakeFiles/test_gui.dir/message_widget.cpp.o: message_widget.cpp
 CMakeFiles/test_gui.dir/message_widget.cpp.o: message_widget.hpp
+CMakeFiles/test_gui.dir/message_widget.cpp.o: /Users/sethbalodi/Qt5.8.0/5.8/clang_64/lib/QtWidgets.framework/Headers/QLabel
 CMakeFiles/test_gui.dir/message_widget.cpp.o: /Users/sethbalodi/Qt5.8.0/5.8/clang_64/lib/QtWidgets.framework/Headers/QLineEdit
 CMakeFiles/test_gui.dir/message_widget.cpp.o: /Users/sethbalodi/Qt5.8.0/5.8/clang_64/lib/QtWidgets.framework/Headers/QWidget
-CMakeFiles/test_gui.dir/message_widget.cpp.o: /Users/sethbalodi/Qt5.8.0/5.8/clang_64/lib/QtWidgets.framework/Headers/Qlabel
 CMakeFiles/test_gui.dir/message_widget.cpp.o: /Users/sethbalodi/Qt5.8.0/5.8/clang_64/lib/QtWidgets.framework/Headers/qlabel.h
 CMakeFiles/test_gui.dir/message_widget.cpp.o: /Users/sethbalodi/Qt5.8.0/5.8/clang_64/lib/QtWidgets.framework/Headers/qlineedit.h
 CMakeFiles/test_gui.dir/message_widget.cpp.o: /Users/sethbalodi/Qt5.8.0/5.8/clang_64/lib/QtWidgets.framework/Headers/qwidget.h
@@ -110,7 +109,6 @@ CMakeFiles/test_gui.dir/test_gui.cpp.o: /Users/sethbalodi/Qt5.8.0/5.8/clang_64/l
 CMakeFiles/test_gui.dir/test_gui.cpp.o: /Users/sethbalodi/Qt5.8.0/5.8/clang_64/lib/QtWidgets.framework/Headers/QLineEdit
 CMakeFiles/test_gui.dir/test_gui.cpp.o: /Users/sethbalodi/Qt5.8.0/5.8/clang_64/lib/QtWidgets.framework/Headers/QVBoxLayout
 CMakeFiles/test_gui.dir/test_gui.cpp.o: /Users/sethbalodi/Qt5.8.0/5.8/clang_64/lib/QtWidgets.framework/Headers/QWidget
-CMakeFiles/test_gui.dir/test_gui.cpp.o: /Users/sethbalodi/Qt5.8.0/5.8/clang_64/lib/QtWidgets.framework/Headers/Qlabel
 CMakeFiles/test_gui.dir/test_gui.cpp.o: /Users/sethbalodi/Qt5.8.0/5.8/clang_64/lib/QtWidgets.framework/Headers/qboxlayout.h
 CMakeFiles/test_gui.dir/test_gui.cpp.o: /Users/sethbalodi/Qt5.8.0/5.8/clang_64/lib/QtWidgets.framework/Headers/qgraphicsitem.h
 CMakeFiles/test_gui.dir/test_gui.cpp.o: /Users/sethbalodi/Qt5.8.0/5.8/clang_64/lib/QtWidgets.framework/Headers/qgraphicsview.h
@@ -141,7 +139,6 @@ CMakeFiles/test_gui.dir/test_gui_automoc.cpp.o: /Users/sethbalodi/Qt5.8.0/5.8/cl
 CMakeFiles/test_gui.dir/test_gui_automoc.cpp.o: /Users/sethbalodi/Qt5.8.0/5.8/clang_64/lib/QtWidgets.framework/Headers/QLineEdit
 CMakeFiles/test_gui.dir/test_gui_automoc.cpp.o: /Users/sethbalodi/Qt5.8.0/5.8/clang_64/lib/QtWidgets.framework/Headers/QVBoxLayout
 CMakeFiles/test_gui.dir/test_gui_automoc.cpp.o: /Users/sethbalodi/Qt5.8.0/5.8/clang_64/lib/QtWidgets.framework/Headers/QWidget
-CMakeFiles/test_gui.dir/test_gui_automoc.cpp.o: /Users/sethbalodi/Qt5.8.0/5.8/clang_64/lib/QtWidgets.framework/Headers/Qlabel
 CMakeFiles/test_gui.dir/test_gui_automoc.cpp.o: /Users/sethbalodi/Qt5.8.0/5.8/clang_64/lib/QtWidgets.framework/Headers/qboxlayout.h
 CMakeFiles/test_gui.dir/test_gui_automoc.cpp.o: /Users/sethbalodi/Qt5.8.0/5.8/clang_64/lib/QtWidgets.framework/Headers/qgraphicsitem.h
 CMakeFiles/test_gui.dir/test_gui_automoc.cpp.o: /Users/sethbalodi/Qt5.8.0/5.8/clang_64/lib/QtWidgets.framework/Headers/qgraphicsview.h

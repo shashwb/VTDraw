@@ -1,5 +1,0 @@
-(begin
-  (define a True)
-  (define b a)
-  (and a b)
-)

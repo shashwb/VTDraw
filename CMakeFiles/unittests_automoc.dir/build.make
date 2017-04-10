@@ -43,10 +43,10 @@ RM = /usr/local/Cellar/cmake/3.7.2/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/sethbalodi/Desktop/project2-shashwb
+CMAKE_SOURCE_DIR = /Users/sethbalodi/CODE/project2-shashwb
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/sethbalodi/Desktop/project2-shashwb
+CMAKE_BINARY_DIR = /Users/sethbalodi/CODE/project2-shashwb
 
 # Utility rule file for unittests_automoc.
 
@@ -54,8 +54,8 @@ CMAKE_BINARY_DIR = /Users/sethbalodi/Desktop/project2-shashwb
 include CMakeFiles/unittests_automoc.dir/progress.make
 
 CMakeFiles/unittests_automoc:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/sethbalodi/Desktop/project2-shashwb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic moc for target unittests"
-	/usr/local/Cellar/cmake/3.7.2/bin/cmake -E cmake_autogen /Users/sethbalodi/Desktop/project2-shashwb/CMakeFiles/unittests_automoc.dir/ ""
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/sethbalodi/CODE/project2-shashwb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic moc for target unittests"
+	/usr/local/Cellar/cmake/3.7.2/bin/cmake -E cmake_autogen /Users/sethbalodi/CODE/project2-shashwb/CMakeFiles/unittests_automoc.dir/ ""
 
 unittests_automoc: CMakeFiles/unittests_automoc
 unittests_automoc: CMakeFiles/unittests_automoc.dir/build.make
@@ -72,6 +72,6 @@ CMakeFiles/unittests_automoc.dir/clean:
 .PHONY : CMakeFiles/unittests_automoc.dir/clean
 
 CMakeFiles/unittests_automoc.dir/depend:
-	cd /Users/sethbalodi/Desktop/project2-shashwb && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/sethbalodi/Desktop/project2-shashwb /Users/sethbalodi/Desktop/project2-shashwb /Users/sethbalodi/Desktop/project2-shashwb /Users/sethbalodi/Desktop/project2-shashwb /Users/sethbalodi/Desktop/project2-shashwb/CMakeFiles/unittests_automoc.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/sethbalodi/CODE/project2-shashwb && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/sethbalodi/CODE/project2-shashwb /Users/sethbalodi/CODE/project2-shashwb /Users/sethbalodi/CODE/project2-shashwb /Users/sethbalodi/CODE/project2-shashwb /Users/sethbalodi/CODE/project2-shashwb/CMakeFiles/unittests_automoc.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/unittests_automoc.dir/depend
 

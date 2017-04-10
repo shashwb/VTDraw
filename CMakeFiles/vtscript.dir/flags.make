@@ -6,5 +6,5 @@ CXX_FLAGS =  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacO
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/Users/sethbalodi/Desktop/project2-shashwb 
+CXX_INCLUDES = -I/Users/sethbalodi/CODE/project2-shashwb 
 
