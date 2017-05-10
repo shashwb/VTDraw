@@ -1,28 +1,40 @@
-#ifndef REPL_WIDGET_H
-#define REPL_WIDGET_H
+#ifndef REPL_WIDGET_HPP
+#define REPL_WIDGET_HPP
 
-#include <QGraphicsItem>
 #include <QWidget>
 #include <QLineEdit>
+#include <QString>
+#include <QObject>
+#include <QEvent>
+#include <QBoxLayout>
 #include <QLabel>
+#include <QKeyEvent>
+#include <QDebug>
+#include <iostream>
 
-
-class REPLWidget : public QWidget
-{
-
+class REPLWidget: public QWidget {
     Q_OBJECT
+
 
 public:
     // Default construct a REPLWidget
     REPLWidget(QWidget * parent = nullptr);
+    ~REPLWidget();
 
-    // A signal that sends the current edited text as a QString when the return key is pressed.
+
+    //public member
+    QLineEdit *repl_box;
+
+public slots:
+    void enterPressed();
+
+
+signals:
     void lineEntered(QString);
 
 
-    QLineEdit *replBox;
-    QLabel *replLabel;
 
 };
 
-#endif // REPL_WIDGET_H
+
+#endif

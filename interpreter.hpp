@@ -1,6 +1,5 @@
-#ifndef INTERPRETER_H					// avoid repeated expansion
-#define INTERPRETER_H
-
+#ifndef INTERPRETER_HPP					// avoid repeated expansion
+#define INTERPRETER_HPP
 
 #include <iostream>
 #include <string>
@@ -41,11 +40,15 @@ public:
     Node * processTokensToTree(vector<string> recursive_vector);
     Expression evaluate_helper(Node * node);
     Expression expression_factory(string changeToExpression);
-
+    Expression evaluateDefine(Node* node);
+    Expression evaluateBegin(Node* node);
+    Expression evaluateIf(Node* node);
+    Expression evaluateAddition(Node* node);
+    Expression weirdStuff(Node* node);
     bool is_number(string s);
     bool is_bool(string value);
     bool is_string(string str);
-
+    vector<Expression*> drawVectorGetter();
     bool logical_not(Expression x);
     bool logical_and(Expression x, Expression y);
     bool logical_or(Expression x, Expression y);
@@ -64,6 +67,7 @@ public:
 
 private:
     Node * root;
+    vector <Expression *> drawVector;
 
 };
 

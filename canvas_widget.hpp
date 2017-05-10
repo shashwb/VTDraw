@@ -1,30 +1,24 @@
-#ifndef CANVAS_WIDGET_H
-#define CANVAS_WIDGET_H
-
-#include <QWidget>
+#ifndef CANVAS_WIDGET_HPP
+#define CANVAS_WIDGET_HPP
+#include <QGraphicsItem>
+#include <QBoxLayout>
 #include <QString>
-#include <QGraphicsWidget>
+#include <QObject>
+#include <QWidget>
+#include <QGraphicsScene>
 #include <QGraphicsView>
 
 
-class CanvasWidget
-{
-
-//    Q_OBJECT
-
+class CanvasWidget: public QWidget {
+    Q_OBJECT
 public:
-    // Default construct a CanvasWidget
+    QGraphicsScene *cbox;
     CanvasWidget(QWidget * parent = nullptr);
 
-    QGraphicsView *canvasBox;
-
-
 public slots:
-    // A public slot that accepts a signal in the form of a QGraphicsItem pointer containing an
-    // object derived from QGraphicsItem to draw
     void addGraphic(QGraphicsItem * item);
-
-
+private:
 
 };
-#endif // CANVAS_WIDGET_H
+
+#endif

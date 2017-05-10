@@ -1,0 +1,11 @@
+/Users/sethbalodi/Desktop/SAFE/project2-shashwb/_build/CMakeFiles/rebuild_cache.dir
+/Users/sethbalodi/Desktop/SAFE/project2-shashwb/_build/CMakeFiles/edit_cache.dir
+/Users/sethbalodi/Desktop/SAFE/project2-shashwb/_build/CMakeFiles/test.dir
+/Users/sethbalodi/Desktop/SAFE/project2-shashwb/_build/CMakeFiles/test_gui.dir
+/Users/sethbalodi/Desktop/SAFE/project2-shashwb/_build/CMakeFiles/unittests.dir
+/Users/sethbalodi/Desktop/SAFE/project2-shashwb/_build/CMakeFiles/vtdraw.dir
+/Users/sethbalodi/Desktop/SAFE/project2-shashwb/_build/CMakeFiles/vtscript.dir
+/Users/sethbalodi/Desktop/SAFE/project2-shashwb/_build/CMakeFiles/test_gui_automoc.dir
+/Users/sethbalodi/Desktop/SAFE/project2-shashwb/_build/CMakeFiles/unittests_automoc.dir
+/Users/sethbalodi/Desktop/SAFE/project2-shashwb/_build/CMakeFiles/vtdraw_automoc.dir
+/Users/sethbalodi/Desktop/SAFE/project2-shashwb/_build/CMakeFiles/vtscript_automoc.dir

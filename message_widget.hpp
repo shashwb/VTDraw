@@ -1,33 +1,35 @@
-#ifndef MESSAGE_WIDGET_H
-#define MESSAGE_WIDGET_H
+#ifndef MESSAGE_WIDGET_HPP
+#define MESSAGE_WIDGET_HPP
 
-// #include "message_widget.hpp"
-
-// #include <QGraphicsItem>
 #include <QWidget>
 #include <QLineEdit>
+#include <QString>
+#include <QBoxLayout>
+#include <QObject>
 #include <QLabel>
+#include <QEvent>
+#include <QDebug>
 
-class MessageWidget : public QWidget
-{
-
+class MessageWidget: public QWidget {
     Q_OBJECT
-
-
 public:
-  // Default construct a MessageWidget displaying no text
-  MessageWidget(QWidget * parent = nullptr);
+    QLineEdit *message_box;
+    // Default construct a MessageWidget displaying no text
+    MessageWidget(QWidget * parent = nullptr);
 
-  // a public slot accepting an informational message to display, clearing any error formatting
-  void info(QString message);
+private:
 
-  // a public slot accepting an error message to display as selected text highlighted with a red background.
-  void error(QString message);
+    //QLineEdit *mbox;
 
 
-   QLineEdit *messageBox;
-   QLabel *messageLabel;
+public slots:
+    // a public slot accepting an informational message to display, clearing any error formatting
+    void info(QString message);
+
+    // a public slot accepting an error message to display as selected text highlighted with a red background.
+    void error(QString message);
+
 
 };
 
-#endif // REPL_WIDGET_H
+#endif

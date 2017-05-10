@@ -1,15 +1,23 @@
-#include "qgraphics_arc_item.hpp"
+#include <QCoreApplication>
 #include <QApplication>
-#include <QDebug>
 
-// #include "qgraphics_arc_item.h"
 #include "main_window.hpp"
+
+#include <iostream>
+#include <fstream>
+#include <string>
+#include <sstream>
+
+#include "interpreter.hpp"
+#include "environment.hpp"
+#include "interpreter_semantic_error.hpp"
+
+using namespace std;
 
 int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
-
-     MainWindow gui;
-
+    MainWindow window;
+    window.show();
     return a.exec();
 }

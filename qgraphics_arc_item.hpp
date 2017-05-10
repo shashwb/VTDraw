@@ -1,5 +1,5 @@
-#ifndef QGRAPHICS_ARC_ITEM_H
-#define QGRAPHICS_ARC_ITEM_H
+#ifndef QGRAPHICS_ARC_ITEM_HPP
+#define QGRAPHICS_ARC_ITEM_HPP
 
 #include <QGraphicsEllipseItem>
 #include <QWidget>
@@ -12,16 +12,10 @@ class QGraphicsArcItem : public QGraphicsEllipseItem
 {
 
 //Q_OBJECT
-
 public:
-    QGraphicsArcItem(qreal x, qreal y, qreal width, qreal height, QGraphicsEllipseItem *parent = nullptr);
-
+    QGraphicsArcItem(qreal x, qreal y, qreal width, qreal height, qreal angle, QGraphicsEllipseItem *parent = nullptr);
 protected:
     void paint(QPainter *painter, const QStyleOptionGraphicsItem * option, QWidget *widget = 0);
-
-private:
-//    QPainter * painter;
-
 };
 
 

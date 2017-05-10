@@ -1,14 +1,18 @@
 #include "canvas_widget.hpp"
+#include <iostream>
+using namespace std;
 
-// Default construct a CanvasWidget
-CanvasWidget::CanvasWidget(QWidget * parent) {
+CanvasWidget::CanvasWidget(QWidget * parent) : QWidget (parent) {
 
-    canvasBox = new QGraphicsView;
-
+    cbox = new QGraphicsScene(this);
+    QGraphicsView *main_box = new QGraphicsView(cbox, this);
+    QBoxLayout *box_layout = new QVBoxLayout;
+    box_layout->addWidget(main_box);
+    this->setLayout(box_layout);
 }
 
-// A public slot that accepts a signal in the form of a QGraphicsItem pointer containing an
-// object derived from QGraphicsItem to draw
-void addGraphic(QGraphicsItem * item) {
 
+void CanvasWidget::addGraphic(QGraphicsItem * item) {
+    cout << "ABOUT TO ADD THE GRAPHIC!" << endl;
+    cbox->addItem(item);
 }

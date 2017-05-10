@@ -1,0 +1,5 @@
+# Hashes of file build rules.
+b037dc0098a88453d8ee79c8fe00f179 CMakeFiles/test_gui_automoc
+b0de60c0461b45aaa568b6401bb669ec CMakeFiles/unittests_automoc
+3a944c7c6bae8ebfad101da3fc0b69e5 CMakeFiles/vtdraw_automoc
+5de73696593c21c62caf04b01ef9ec41 CMakeFiles/vtscript_automoc

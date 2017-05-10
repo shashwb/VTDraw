@@ -1,42 +1,29 @@
 #include "main_window.hpp"
 #include "message_widget.hpp"
-#include "repl_widget.hpp"
 #include "canvas_widget.hpp"
-
-// Default construct a MainWindow
-MainWindow::MainWindow(QWidget * parent) {
-
-
-    QWidget *window = new QWidget;
-
-    //constructors for necessary objects
-    MessageWidget message_widget;
-    REPLWidget repl_widget;
-    CanvasWidget canvas_widget;
-
-    QHBoxLayout *messageLayout = new QHBoxLayout;
-    messageLayout->addWidget(message_widget.messageLabel);
-    messageLayout->addWidget(message_widget.messageBox);
-
-    QVBoxLayout *overall_layout = new QVBoxLayout;
-    overall_layout->addLayout(messageLayout);
+#include "qt_interpreter.hpp"
+#include "repl_widget.hpp"
 
 
-    QHBoxLayout *replLayout = new QHBoxLayout;
-    replLayout->addWidget(repl_widget.replLabel);
-    replLayout->addWidget(repl_widget.replBox);
-
-    overall_layout->addWidget(canvas_widget.canvasBox);
-
-    overall_layout->addLayout(replLayout);
-
-    window->setLayout(overall_layout);
-    window->show();
-
-
+MainWindow::MainWindow(QWidget * parent) : QWidget(parent) {
+    
+    QBoxLayout *main_layout = new QVBoxLayout;
+    QtInterpreter *interpreter_gui = new QtInterpreter(this);
+    MessageWidget *message = new MessageWidget(this);
+    main_layout->addWidget(message);
+    CanvasWidget *canvas = new CanvasWidget(this);
+    main_layout->addWidget(canvas);
+    REPLWidget *repl = new REPLWidget(this);
+    main_layout->addWidget(repl);
+    this->setLayout(main_layout);
+    this->setMinimumSize(800, 600);
+    connect(repl, &REPLWidget::lineEntered, interpreter_gui, &QtInterpreter::parseAndEvaluate);
+    connect(interpreter_gui, &QtInterpreter::info, message, &MessageWidget::info);
+    connect(interpreter_gui, &QtInterpreter::error, message, &MessageWidget::error);
+    connect(interpreter_gui, &QtInterpreter::drawGraphic, canvas, &CanvasWidget::addGraphic);
+    
 }
 
-// Default construct a MainWidow, using filename as the script file to attempt to preload
-MainWindow::MainWindow(std::string filename, QWidget * parent) {
+MainWindow::MainWindow(std::string filename, QWidget * parent) : QWidget(parent) {
 
 }

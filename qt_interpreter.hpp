@@ -1,40 +1,43 @@
-#ifndef QT_INTERPRETER_H
-#define QT_INTERPRETER_H
-
-#include <QWidget>
+#ifndef QT_INTERPRETER_HPP
+#define QT_INTERPRETER_HPP
 #include "interpreter.hpp"
+#include <QWidget>
+#include <QBoxLayout>
+#include <QLabel>
+#include <QKeyEvent>
+#include <QDebug>
 #include <QGraphicsItem>
+#include <iostream>
+#include <QLineEdit>
+#include <QString>
 #include <QObject>
+#include <QEvent>
+#include <QObject>
+#include <vector>
 
-using namespace std;
 
-class QtInterpreter : public QObject
-{
+
+class QtInterpreter : public QObject {
     Q_OBJECT
 
 public:
-    // Default construct an QtInterpreter with the default environment and an empty AST
-     QtInterpreter(QObject * parent = nullptr);
+    QtInterpreter(QObject * parent = nullptr);
 
 signals:
-
-//    // a signal emitting a graphic to be drawn as a pointer
-//    void drawGraphic(QGraphicsItem * item);
-
-//    // a signal emitting an informational message
-//    void info(QString message);
-
-//    // a signal emitting an error message
-//    void error(QString message);
+    void drawGraphic(QGraphicsItem * item);
+    void info(QString message);
+    void error(QString message);
 
 public slots:
-
-//    // a public slot that accepts and expression string and parses/evaluates it
-//    void parseAndEvaluate(QString entry);
+    void parseAndEvaluate(QString entry);
+    void determineMessageOutput(Expression exp);
+    void recieveDrawVector();
 
 private:
+
     Interpreter inter;
+    vector<Expression *> qtDrawVector;
 
 };
 
-#endif // QT_INTERPRETER_H
+#endif

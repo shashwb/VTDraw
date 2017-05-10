@@ -1,5 +1,5 @@
-#ifndef TOKENIZE_H					// avoid repeated expansion
-#define TOKENIZE_H
+#ifndef TOKENIZE_HPP					// avoid repeated expansion
+#define TOKENIZE_HPP
 
 #include <string>
 #include <iostream>

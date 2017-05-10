@@ -1,0 +1,130 @@
+Start testing: May 08 14:12 EDT
+----------------------------------------------------------
+1/2 Testing: unittests
+1/2 Test: unittests
+Command: "/Users/sethbalodi/CODE/project2-shashwb/unittests"
+Directory: /Users/sethbalodi/CODE/project2-shashwb
+"unittests" start time: May 08 14:12 EDT
+Output:
+----------------------------------------------------------
+(True)
+(False)
+(4)
+(3.14159)
+(3)
+(6)
+(21)
+(4)
+(-4)
+(42)
+(42)
+(20)
+(2)
+(43)
+(True)
+(True)
+(True)
+(True)
+(True)
+(True)
+(=)
+(False)
+(False)
+(False)
+(False)
+(False)
+(False)
+(=)
+(False)
+(True)
+(True)
+(False)
+(False)
+(False)
+(False)
+(True)
+(True)
+(True)
+(False)
+(True)
+(@)
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+unittests is a Catch v1.5.4 host application.
+Run with -? for options
+
+-------------------------------------------------------------------------------
+Test some semantically invalid expresions
+-------------------------------------------------------------------------------
+/Users/sethbalodi/CODE/project2-shashwb/test_interpreter.cpp:316
+...............................................................................
+
+/Users/sethbalodi/CODE/project2-shashwb/test_interpreter.cpp:330: FAILED:
+  REQUIRE_THROWS_AS( interp.eval() )
+because no exception was thrown where one was expected:
+
+===============================================================================
+test cases:  17 |  16 passed | 1 failed
+assertions: 120 | 119 passed | 1 failed
+
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Failed.
+"unittests" end time: May 08 14:12 EDT
+"unittests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/2 Testing: test_gui
+2/2 Test: test_gui
+Command: "/Users/sethbalodi/CODE/project2-shashwb/test_gui"
+Directory: /Users/sethbalodi/CODE/project2-shashwb
+"test_gui" start time: May 08 14:12 EDT
+Output:
+----------------------------------------------------------
+********* Start testing of TestGUI *********
+Config: Using QtTest library 5.8.0, Qt 5.8.0 (x86_64-little_endian-lp64 shared (dynamic) release build; by Clang 7.0.2 (clang-700.1.81) (Apple))
+PASS   : TestGUI::initTestCase()
+(1)
+Size of the QtDrawVector: 0
+PASS   : TestGUI::testREPLGood()
+(foo)
+Size of the QtDrawVector: 0
+PASS   : TestGUI::testREPLBad()
+(foo)
+Size of the QtDrawVector: 0
+(100)
+Size of the QtDrawVector: 0
+PASS   : TestGUI::testREPLBad2Good()
+the type of this expression is NONETYPE
+Updated the size of the drawVector! POINT was pushed in 1
+(draw)
+Size of the QtDrawVector: 1
+drawGraphics signal emitted...
+PASS   : TestGUI::testPoint()
+the type of this expression is NONETYPE
+Updated the size of the drawVector! LINE was pushed in 2
+(draw)
+Size of the QtDrawVector: 2
+NEED TO EMIT THIS SIGNAL
+PASS   : TestGUI::testLine()
+the type of this expression is NONETYPE
+(draw)
+Size of the QtDrawVector: 2
+FAIL!  : TestGUI::testArc() 'scene->itemAt(QPointF(100, 0), QTransform()) != 0' returned FALSE. (Expected a point on the arc in the scene. Not found.)
+   Loc: [/Users/sethbalodi/CODE/project2-shashwb/test_gui.cpp(177)]
+the type of this expression is NONETYPE
+Updated the size of the drawVector! POINT was pushed in 3
+PASS   : TestGUI::testEnvRestore()
+PASS   : TestGUI::cleanupTestCase()
+Totals: 8 passed, 1 failed, 0 skipped, 0 blacklisted, 53ms
+********* Finished testing of TestGUI *********
+<end of output>
+Test time =   1.41 sec
+----------------------------------------------------------
+Test Failed.
+"test_gui" end time: May 08 14:12 EDT
+"test_gui" time elapsed: 00:00:01
+----------------------------------------------------------
+
+End testing: May 08 14:12 EDT

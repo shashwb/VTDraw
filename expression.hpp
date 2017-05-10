@@ -1,5 +1,5 @@
-#ifndef EXPRESSION_H
-#define EXPRESSION_H
+#ifndef EXPRESSION_HPP
+#define EXPRESSION_HPP
 
 #include <string>
 #include <iostream>
@@ -13,31 +13,31 @@ enum Type {
     NoneType = 0,
     BooleanType,
     NumberType,
-    SymbolType
+    SymbolType,
+    PointType,
+    LineType,
+    ArcType
 };
 
-struct point {
-    double x;
-    double y;
-};
 
-struct line {
-    point one;
-    point two;
-};
+typedef struct {
+    std::tuple<double,double> point_value;
+} Point;
 
-struct arc {
-    point p;
-    line l;
-};
+typedef struct {
+    Point line_value_start;
+    Point line_value_end;
+} line;
 
 typedef struct {
     double number_value;
     bool boolean_value;
     string string_value;
-    point point_value;
-    line line_value;
-    arc arc_value;
+    Point point;
+    line Line;
+    std::tuple<double,double> center_value;
+    std::tuple<double,double> start_value;
+    double arc_value;
 } data;
 
 
@@ -53,32 +53,19 @@ public:
     Expression(bool value);
     Expression(double value);
     Expression(const std::string & value);
-
-
+    bool is_number(string s);
+    bool operator==(const Expression & exp) const noexcept;
     Expression(std::tuple<double,double> value);
-
-    // Construct an Expression with a single Line atom with starting
-    // point start and ending point end
     Expression(std::tuple<double,double> start,
                std::tuple<double,double> end);
-
-    // Construct an Expression with a single Arc atom with center
-    // point center, starting point start, and spanning angle angle in radians
     Expression(std::tuple<double,double> center,
                std::tuple<double,double> start,
                double angle);
 
-    bool operator==(const Expression & exp) const noexcept;	//TODO
-
     data Data;
     Express express;
-
-private:
-
-
+    line Line;
+    Point point;
 };
-
-
-
 
 #endif
