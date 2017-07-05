@@ -6,6 +6,7 @@ To fully understand the design for VTDraw, please read the design documentation 
 
 
 ![My image](https://user-images.githubusercontent.com/7054302/27883170-a404ee1c-619d-11e7-9874-80d7b5ec5e49.png)
+![My image](https://user-images.githubusercontent.com/7054302/27883691-6a0b425e-619f-11e7-8453-d2843ab3d47b.png)
 ![My image](https://user-images.githubusercontent.com/7054302/27883173-a707e5ba-619d-11e7-9933-0222782e1ed7.png)
 ![My image](https://user-images.githubusercontent.com/7054302/27883175-a9aef09c-619d-11e7-83f2-e036b872a1ce.png)
 ![My image](https://user-images.githubusercontent.com/7054302/27883179-ab92a278-619d-11e7-9438-d7ef0cd0586f.png)
