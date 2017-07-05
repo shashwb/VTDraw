@@ -1,7 +1,7 @@
 # VTDraw
 Qt Gui Application using Lisp Interpreter Language to Graphically Draw Points, Lines and Arcs
 
-![a link](https://github.com/user/repo/blob/branch/other_file.md)
+![a link](https://github.com/shashwb/VTScript/blob/master/README.md)
 
 
 ![My image](https://user-images.githubusercontent.com/7054302/27883170-a404ee1c-619d-11e7-9874-80d7b5ec5e49.png)
