@@ -1,6 +1,7 @@
 # VTDraw
 Qt Gui Application using Lisp Interpreter Language to Graphically Draw Points, Lines and Arcs
 
+To fully understand the design for VTDraw, please read the design documentation of VTScript. VTDraw is an extension of the C++ LISP-esque interpreter created in VTScript. The the link can be found here!
 ![a link](https://github.com/shashwb/VTScript/blob/master/README.md)
 
 
